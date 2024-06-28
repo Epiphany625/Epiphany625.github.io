@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/static/css/main.afd609d8.css",
+    "main.js": "/static/js/main.41dbfed0.js",
+    "static/js/453.a28b9d03.chunk.js": "/static/js/453.a28b9d03.chunk.js",
+    "static/media/photo5.jpg": "/static/media/photo5.9aacc9bdf30f454c90db.jpg",
+    "static/media/experience.JPG": "/static/media/experience.1371b27c32a39205883b.JPG",
+    "static/media/my-photo.JPG": "/static/media/my-photo.eaf43357c9195159e4a0.JPG",
+    "static/media/dream.jpg": "/static/media/dream.74a6d8bb71453786722f.jpg",
+    "static/media/photo1.jpg": "/static/media/photo1.250c68df0eb4821a1456.jpg",
+    "static/media/mcc_descript.png": "/static/media/mcc_descript.2a4e7e601ff32fc6c3ee.png",
+    "static/media/photo3.jpg": "/static/media/photo3.e04d02e5889d11e293bb.jpg",
+    "static/media/hobbies_bg.jpeg": "/static/media/hobbies_bg.8281583c02e21e111cbb.jpeg",
+    "static/media/admission.jpeg": "/static/media/admission.d2cfd9229e9315d1a48c.jpeg",
+    "static/media/photo4.jpg": "/static/media/photo4.78fc873a42281bb52555.jpg",
+    "static/media/travel.JPG": "/static/media/travel.0a30fd5612044a95b1ad.JPG",
+    "static/media/photo2.jpg": "/static/media/photo2.67d632137ee355a1ce91.jpg",
+    "static/media/piano.JPG": "/static/media/piano.d92610353dfde55b274e.JPG",
+    "static/media/javascript.png": "/static/media/javascript.00be3f1b775c2e32d7a1.png",
+    "static/media/logo.PNG": "/static/media/logo.81a08a873c3733b1bc72.PNG",
+    "static/media/website.png": "/static/media/website.d93253d889269fd3088b.png",
+    "static/media/stock.png": "/static/media/stock.fbb0d82264c3ffc05065.png",
+    "static/media/drone.jpg": "/static/media/drone.0d9ac89eb85aecfb6b08.jpg",
+    "static/media/USChedule.png": "/static/media/USChedule.c84c4851b1e5e8d6606e.png",
+    "static/media/helloworld.png": "/static/media/helloworld.6cc129e1065713596120.png",
+    "static/media/ts.png": "/static/media/ts.5b43f92c00e613f23ef6.png",
+    "static/media/cpp.png": "/static/media/cpp.03911ed1fc204f6d292a.png",
+    "static/media/mcc.png": "/static/media/mcc.643a666eb33413930b85.png",
+    "static/media/python.png": "/static/media/python.76605fef8fea9f6b4f48.png",
+    "static/media/gomoku.png": "/static/media/gomoku.e6942e1eb53544c8faa7.png",
+    "static/media/simulink.png": "/static/media/simulink.fa5d7db22293556e4ff4.png",
+    "static/media/stealth.png": "/static/media/stealth.9ed13185d4d5a1e4ce78.png",
+    "static/media/td.png": "/static/media/td.c0fd2b839184b598b74a.png",
+    "index.html": "/index.html",
+    "main.afd609d8.css.map": "/static/css/main.afd609d8.css.map",
+    "main.41dbfed0.js.map": "/static/js/main.41dbfed0.js.map",
+    "453.a28b9d03.chunk.js.map": "/static/js/453.a28b9d03.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.afd609d8.css",
+    "static/js/main.41dbfed0.js"
+  ]
+}
