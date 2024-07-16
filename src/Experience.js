@@ -55,7 +55,7 @@ const Experience = () => {
           />
         ))}
       </div>
-      <InfoCard image="mcc_descript.png" title="Marshall Consulting Club, VP of Operations" sub="Aug 2023 - May 2024" description1={marshallDescript}/>
+      <InfoCard image="mcc_descript.png" title="Marshall Consulting Club, VP of Operations" sub="Aug 2023 - May 2024" description1={marshallDescript} location="Los Angeles, CA"/>
       <InfoCard image="td.png" title="TestDaily, Associative Tutor" sub="Present and Forever" description1={tdDescript}/>
       <ReturnToTop idName="experience-container" />
     </div>

@@ -15,8 +15,17 @@
   transition: 0.3s ease-in-out;
 }
 
+.info-icon{
+  margin: 2px;
+}
+
 .card-container:hover{
   scale: 1.02;
+}
+
+.card-subtitle{
+  margin-top: 5px;
+  margin-bottom: 10px;
 }
 
 /* Photo styling */
@@ -42,7 +51,7 @@
 .info-text h1 {
   font-size: 2rem; /* Larger font size */
   color: #1f1f1f;
-  margin-bottom: 1.5rem; /* Increased margin */
+  margin-bottom: 1rem; /* Increased margin */
 }
 
 .info-text p {
@@ -51,6 +60,21 @@
   margin-bottom: 1rem; /* Increased margin */
   line-height: 1.75; /* Increased line height */
   text-align: left;
+}
+
+@media (max-width: 768px) {
+  .card-container{
+    display: block;
+  }
+  /* .info-image-container{
+    display: flex;
+    justify-content: center;
+  } */
+
+  .info-photo{
+    margin: 0px;
+  }
+
 }
 
 

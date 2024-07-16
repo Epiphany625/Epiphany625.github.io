@@ -58,4 +58,10 @@
       transform: translateY(-10px); /* Adjust the floating height */
     }
   }
+
+  @media (max-width: 768px){
+    .projects-title{
+      font-size: 2rem;
+    }
+  }
   

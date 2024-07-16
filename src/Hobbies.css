@@ -56,4 +56,10 @@
       transform: translateY(-10px); /* Adjust the floating height */
     }
   }
+
+  @media (max-width: 768px){
+    .hobbies-title{
+      font-size: 2rem;
+    }
+  }
   

@@ -61,7 +61,7 @@ const Projects = () => {
           sub="May 2024 - June 2024, actively maintained" 
           description1={websiteDescript1} 
           description2={websiteDescript2}
-          link="https://github.com/Epiphany625/Epiphany625.github.io"
+          repoLink="https://github.com/Epiphany625/Epiphany625.github.io"
         />
         <InfoCard 
           image="gomoku.png" 
@@ -69,7 +69,8 @@ const Projects = () => {
           sub="May 2024, actively maintained" 
           description1={gomokuDescript1} 
           description2={gomokuDescript2}
-          link="https://github.com/Epiphany625/Epiphany625.github.io/blob/main/blocks.html" 
+          repoLink="https://github.com/Epiphany625/Epiphany625.github.io/blob/main/blocks.html" 
+          webLink="https://epiphany625.github.io/blocks.html"
         />
         <InfoCard 
           image="USChedule.png" 
@@ -77,13 +78,13 @@ const Projects = () => {
           sub="Mar 2024 - Apr 2024, holding updates once a month" 
           description1={USCheduleDescript1} 
           description2={USCheduleDescript2}
-          link='https://github.com/Epiphany625/USChedule' 
+          repoLink='https://github.com/Epiphany625/USChedule' 
         />
         <InfoCard 
           image="stock.png" 
           title="Historical Stock & Revenue Analysis" 
           sub="Dec 2023 - Jan 2024" 
-          link='https://github.com/Epiphany625/StockDataWebscraping'
+          repoLink='https://github.com/Epiphany625/StockDataWebscraping'
         />
         <ReturnToTop idName="projects-container" />
       </div>

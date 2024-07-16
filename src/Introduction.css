@@ -63,5 +63,37 @@
     margin-bottom: 1rem; /* Increased margin */
     line-height: 1.75; /* Increased line height */
   }
+
+  @media (max-width: 768px){
+    .introduction-text h1 {
+      font-size: 1.5rem; 
+      margin-bottom: 1rem; 
+    }
+
+    .introduction-photo{
+      margin: 0;
+    }
+
+    .introduction-photo-container{
+      display: flex;
+      justify-content: center;
+    }
+    
+    .introduction-text p {
+      font-size: 1rem; 
+      line-height: 1.5; 
+    }
+
+    .introduction-container{
+      display: block;
+      padding: 1.5rem;
+      max-width: 550px;
+    }
+
+    .introduction-photo{
+      width: 150px;
+      height: 150px;
+    }
+  }
   
   
