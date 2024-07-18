@@ -1,9 +1,9 @@
 // src/Hobbies.js
 import React from 'react';
-import InfoCard from './InfoCard';
-import hobbiesBg from './hobbies_bg.jpeg';
+import InfoCard from '../InfoCard/InfoCard.js';
+import hobbiesBg from '../../assets/hobbies_bg.jpeg';
 import './Hobbies.css'; // Import the CSS file
-import ReturnToTop from './ReturnToTop';
+import ReturnToTop from '../ReturnToTop/ReturnToTop.js';
 
 const Hobbies = () => {
   const photos = [
@@ -29,7 +29,7 @@ const Hobbies = () => {
           {photos.map((photo, index) => (
             <img
               key={index}
-              src={require(`./assets/${photo}`)} // Adjust path if necessary
+              src={require(`../../assets/${photo}`)} // Adjust path if necessary
               alt={`Hobby ${index + 1}`}
               className="hobby-photo"
             />

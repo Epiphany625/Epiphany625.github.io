@@ -23,7 +23,7 @@ const InfoCard = ({image, title, sub, description1, description2, repoLink = "no
   return (
     <>
     <div className="card-container">
-      <div className="info-image-container"><img src={require(`./assets/${photo}`)} alt="displays personal" className="info-photo" /></div>
+      <div className="info-image-container"><img src={require(`../../assets/${photo}`)} alt="displays personal" className="info-photo" /></div>
       <div className="info-text">
         <h1 className="card-title">{title}</h1>
         <h3 className="card-subtitle">{sub}</h3>

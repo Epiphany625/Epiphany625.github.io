@@ -1,8 +1,8 @@
 import React from 'react';
 import './Introduction.css';
-import MyPhoto from './my-photo.JPG'; // Replace with the actual path to your photo
+import MyPhoto from '../../assets/my-photo.JPG'; // Replace with the actual path to your photo
 import {Link} from 'react-router-dom';
-import Dream from './dream.jpg';
+import Dream from '../../assets/dream.jpg';
 
 const Introduction = () => {
   return (

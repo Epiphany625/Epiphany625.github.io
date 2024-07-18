@@ -1,8 +1,8 @@
 // Education.js
 import React from 'react';
 import './Education.css';
-import uscLogo from './logo.PNG'; // Adjust the path as necessary
-import admission from './assets/admission.jpeg';
+import uscLogo from '../../assets/logo.PNG'; // Adjust the path as necessary
+import admission from '../../assets/admission.jpeg';
 
 const Education = () => {
   return (

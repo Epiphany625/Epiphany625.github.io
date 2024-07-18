@@ -1,9 +1,9 @@
 // src/Hobbies.js
 import React from 'react';
-import InfoCard from './InfoCard';
-import ExperienceBG from './assets/experience.JPG';
+import InfoCard from '../InfoCard/InfoCard.js';
+import ExperienceBG from '../../assets/experience.JPG';
 import './Experience.css'; // Import the CSS file
-import ReturnToTop from './ReturnToTop';
+import ReturnToTop from '../ReturnToTop/ReturnToTop.js';
 
 const Experience = () => {
   const photos = [
@@ -49,7 +49,7 @@ const Experience = () => {
         {photos.map((photo, index) => (
           <img
             key={index}
-            src={require(`./assets/${photo}`)} // Adjust path if necessary
+            src={require(`../../assets/${photo}`)} // Adjust path if necessary
             alt={`Hobby ${index + 1}`}
             className="experience-photo"
           />

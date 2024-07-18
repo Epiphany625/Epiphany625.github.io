@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import InfoCard from './InfoCard';
-import Helloworld from './assets/helloworld.png';
+import InfoCard from '../InfoCard/InfoCard.js';
+import Helloworld from '../../assets/helloworld.png';
 import './Projects.css';
-import ReturnToTop from './ReturnToTop';
+import ReturnToTop from '../ReturnToTop/ReturnToTop.js';
 
 const Projects = () => {
   const photos = [
@@ -49,7 +49,7 @@ const Projects = () => {
           {photos.map((photo, index) => (
             <img
               key={index}
-              src={require(`./assets/${photo}`)} // Adjust path if necessary
+              src={require(`../../assets/${photo}`)} // Adjust path if necessary
               alt={`Project ${index + 1}`}
               className="projects-photo"
             />
