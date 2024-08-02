@@ -1,8 +1,21 @@
-import React from 'react';
+import React, {useRef} from 'react';
 import './InfoCard.css';
 
 const InfoCard = ({image, title, sub, description1, description2, repoLink = "none", webLink="none", location="none"}) => {
   const photo = image;
+
+  const shortendDescription = description1.substring(0, 120) + "... ";
+
+  const descriptions = useRef();
+  const undisplay = useRef();
+
+  const display = function(){
+    descriptions.current.style.display = 'block';
+    undisplay.current.style.display = 'none';
+  }
+
+
+
 
   let repository = []
   if(repoLink !== "none"){
@@ -28,8 +41,14 @@ const InfoCard = ({image, title, sub, description1, description2, repoLink = "no
         <h1 className="card-title">{title}</h1>
         <h3 className="card-subtitle">{sub}</h3>
         {loc}
-        <p>{description1}</p>
-        <p>{description2}</p>
+        <div>
+          <p ref={undisplay}>{shortendDescription}<span onClick={display} className='read-more'>Read More</span></p>
+          <div className='descriptions' ref={descriptions}>
+            <p>{description1}</p>
+            <p>{description2}</p>
+          </div>
+        </div>
+
         {repository}
         {website}
       </div>

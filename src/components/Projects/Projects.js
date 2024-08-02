@@ -19,7 +19,7 @@ const Projects = () => {
   const gomokuDescript2 = "In the monthly updates, I plan to add more functionalities to this website and improve the UI design in greater detail.";
   const USCheduleDescript1 = "I developed a program called USChedule using C++ for efficient course scheduling for USC students. It offers functionalities like automatically building a schedule with latest wake-up time, fewest Friday classes, and more.";
   const USCheduleDescript2 = "The program is updated monthly to fine-tune basic parameters and add new functionalities.";
-
+  const revenueAnalysisDescript1 = "I utilized popular Python libraries like Pandas, Matplotlib, etc. with public APIs like yfinance to analyze the historical stock and revenue data of Netflix and Tesla. I conducted both exploratory and in-depth data analysis in an effort to make informed financial decisions. "
   const [code, setCode] = useState(">>>");
   const text = "DREAM IT. CODE IT.";
 
@@ -85,6 +85,7 @@ const Projects = () => {
           title="Historical Stock & Revenue Analysis" 
           sub="Dec 2023 - Jan 2024" 
           repoLink='https://github.com/Epiphany625/StockDataWebscraping'
+          description1={revenueAnalysisDescript1}
         />
         <ReturnToTop idName="projects-container" />
       </div>

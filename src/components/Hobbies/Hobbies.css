@@ -28,6 +28,7 @@
     gap: 2rem; /* Space between photos */
     position: relative; /* Positioning context for absolute photos */
     z-index: 1; /* Lower z-index to keep it behind the navbar */
+    margin-bottom: 5%;
   }
   
   .hobby-photo {
