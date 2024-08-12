@@ -19,13 +19,13 @@ const InfoCard = ({image, title, sub, description1, description2, repoLink = "no
 
   let repository = []
   if(repoLink !== "none"){
-    repository.push(<div style={{fontSize:"1.1em", margin:"1.2em"}}><b><i className="fab fa-github info-icon"></i><a href={repoLink}>{title}</a></b></div>)
+    repository.push(<div style={{fontSize:"1.1em", margin:"1.2em"}}><b><i className="fab fa-github info-icon"></i><a href={repoLink}  target='_blank' rel="noreferrer">{title}</a></b></div>)
   }
 
   let website = [];
 
   if(webLink !== "none"){
-    website.push(<div style={{fontSize:"1.1em", margin:"1.2em"}}><b><i className="fas fa-square-up-right info-icon"></i><a href={webLink}>{title}</a></b></div>)
+    website.push(<div style={{fontSize:"1.1em", margin:"1.2em"}}><b><i className="fas fa-square-up-right info-icon"></i><a href={webLink} target='_blank' rel="noreferrer">{title}</a></b></div>)
   }
 
   let loc = [];

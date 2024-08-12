@@ -35,7 +35,7 @@ const Footer = () => {
                 <div className="footer-section">
                     <h4>Follow Me</h4>
                     <div className="social-icons">
-                        <a href="https://www.linkedin.com/in/xinyang-xu-401a68290" className="social-icon">
+                        <a href="https://www.linkedin.com/in/xinyangx" className="social-icon">
                             <i className="fab fa-linkedin"></i>
                         </a>
                         <a href="https://github.com/Epiphany625" className="social-icon">
@@ -51,7 +51,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className="footer-bottom">
-                <p>&copy; {new Date().getFullYear()} Xinyang Xu. All rights reserved. Last Update: 2024-08-01</p>
+                <p>&copy; {new Date().getFullYear()} Xinyang Xu. All rights reserved. Last Update: 2024-08-12</p>
             </div>
         </footer>
     );

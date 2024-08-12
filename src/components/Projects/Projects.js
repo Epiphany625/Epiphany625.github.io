@@ -15,7 +15,7 @@ const Projects = () => {
 
   const websiteDescript1 = "In May 2024, I participated in the Meta Front End Developer Professional Certificate Program. I created a personal website to introduce my hobbies, professional experiences, projects, and more related to computer science.";
   const websiteDescript2 = "I utilized 15+ components while building the website and implemented SPA design with React Router DOM. I plan to add stateful aspects in future development.";
-  const gomokuDescript1 = "I am a fan of Gomoku. To combine my passion for Gomoku and coding, I built a website primarily using JavaScript to replicate the Gomoku game. With about 400 lines of code, the website accurately detects winners, recalls steps, and corrects errors.";
+  const gomokuDescript1 = "I am a fan of Gomoku. To combine my passion for Gomoku and coding, I built a website primarily using JavaScript to replicate the Gomoku game. With about 400 lines of code, the website accurately detects winners, recalls steps, and corrects errors. It is deployed with AWS Amplify. ";
   const gomokuDescript2 = "In the monthly updates, I plan to add more functionalities to this website and improve the UI design in greater detail.";
   const USCheduleDescript1 = "I developed a program called USChedule using C++ for efficient course scheduling for USC students. It offers functionalities like automatically building a schedule with latest wake-up time, fewest Friday classes, and more.";
   const USCheduleDescript2 = "The program is updated monthly to fine-tune basic parameters and add new functionalities.";
@@ -69,8 +69,8 @@ const Projects = () => {
           sub="May 2024, actively maintained" 
           description1={gomokuDescript1} 
           description2={gomokuDescript2}
-          repoLink="https://github.com/Epiphany625/Epiphany625.github.io/blob/main/blocks.html" 
-          webLink="https://epiphany625.github.io/blocks.html"
+          repoLink="https://github.com/Epiphany625/Gomoku" 
+          webLink="https://main.dxcuebsw4mhmn.amplifyapp.com/"
         />
         <InfoCard 
           image="USChedule.png" 
