@@ -51,7 +51,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className="footer-bottom">
-                <p>&copy; {new Date().getFullYear()} Xinyang Xu. All rights reserved. Last Update: 2024-08-12</p>
+                <p>&copy; {new Date().getFullYear()} Xinyang Xu. All rights reserved. Last Update: 2024-09-18</p>
             </div>
         </footer>
     );

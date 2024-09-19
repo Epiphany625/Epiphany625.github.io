@@ -7,6 +7,7 @@ import Hobbies from './components/Hobbies/Hobbies.js';
 import Education from './components/Education/Education.js'
 import Projects from './components/Projects/Projects.js'
 import Experience from './components/Experience/Experience.js'
+import Feedback from './components/Feedback/Feedback.js'
 import React from 'react';
 
 
@@ -22,6 +23,7 @@ function App() {
         <Route path="/education" element={<Education />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/experience" element={<Experience />} />
+        <Route path="/feedback" element={<Feedback />} />
       </Routes>
       <Footer/>
     </div>
